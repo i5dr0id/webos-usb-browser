@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=3840">
+<title>USB Browser</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="header">
+    <button id="back-btn" class="nav-btn" style="display:none">&larr;</button>
+    <h1 id="title">USB Browser</h1>
+    <span id="path-display">/</span>
+  </div>
+  <div id="status"></div>
+  <div id="grid"></div>
+  <div id="viewer" style="display:none">
+    <div id="viewer-close" tabindex="0">&times;</div>
+    <img id="viewer-img">
+    <video id="viewer-video" controls autoplay></video>
+  </div>
+</div>
+<script src="app.js?v=10"></script>
+</body>
+</html>

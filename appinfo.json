@@ -1,0 +1,13 @@
+{
+    "id": "com.custom.filebrowser",
+    "version": "1.0.0",
+    "vendor": "Custom",
+    "type": "web",
+    "title": "USB Browser",
+    "main": "index.html",
+    "icon": "icon.png",
+    "noSplashOnLaunch": true,
+    "visible": true,
+    "defaultWindowType": "card",
+    "transparent": false
+}
